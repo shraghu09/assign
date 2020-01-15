@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="234615" started-at="2020-01-15T18:03:38Z" finished-at="2020-01-15T18:07:33Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="234615" started-at="2020-01-15T18:03:38Z" finished-at="2020-01-15T18:07:33Z">
+      <class name="testscripts.Script1">
+        <test-method status="PASS" signature="setpath()[pri:0, instance:testscripts.Script1@68c4039c]" name="setpath" is-config="true" duration-ms="15" started-at="2020-01-15T18:03:38Z" finished-at="2020-01-15T18:03:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setpath -->
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:testscripts.Script1@68c4039c]" name="openbrowser" is-config="true" duration-ms="28906" started-at="2020-01-15T18:03:38Z" finished-at="2020-01-15T18:04:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="runapp()[pri:1, instance:testscripts.Script1@68c4039c]" name="runapp" duration-ms="59406" started-at="2020-01-15T18:04:07Z" finished-at="2020-01-15T18:05:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runapp -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testscripts.Script1@68c4039c]" name="teardown" is-config="true" duration-ms="1720" started-at="2020-01-15T18:05:06Z" finished-at="2020-01-15T18:05:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testscripts.Script1 -->
+      <class name="testscripts.Testscript2">
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:testscripts.Testscript2@ae45eb6]" name="openbrowser" is-config="true" duration-ms="13557" started-at="2020-01-15T18:05:08Z" finished-at="2020-01-15T18:05:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="script2()[pri:2, instance:testscripts.Testscript2@ae45eb6]" name="script2" duration-ms="128684" started-at="2020-01-15T18:05:22Z" finished-at="2020-01-15T18:07:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- script2 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testscripts.Testscript2@ae45eb6]" name="teardown" is-config="true" duration-ms="2279" started-at="2020-01-15T18:07:30Z" finished-at="2020-01-15T18:07:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testscripts.Testscript2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
